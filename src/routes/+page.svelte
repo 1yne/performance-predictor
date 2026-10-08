@@ -70,7 +70,7 @@
       </div>
     </div>
   </div>
-  <button onclick={click}>Click</button>
+  <button onclick={click}>Predict Next Exam Score</button>
   <!-- [78,90,3,9,80,76,3] -->
 </div>
 
@@ -125,5 +125,18 @@
     /* Adds a custom, accessible style that fits your design */
     border-color: #2563eb;
     box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.25);
+  }
+  button {
+    color: black;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    border: none;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  button:hover {
+    background-color: #AABBE1;
+    color: white;
+    border: #2563eb;
   }
 </style>
